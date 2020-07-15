@@ -1,0 +1,21 @@
+### list all users
+GET http://localhost:8080/
+Accept: application/json
+
+### create first user
+POST http://localhost:8080/root
+Accept: application/json
+
+### create second user
+POST http://localhost:8080/demo
+Accept: application/json
+
+### knock first user
+PUT http://localhost:8080/0
+Accept: application/json
+
+### knok second user
+PUT http://localhost:8080/1
+Accept: application/json
+
+###
